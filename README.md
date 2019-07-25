@@ -5,3 +5,19 @@
 
 
 ![img](https://github.com/googlecreativelab/quickdraw-dataset/raw/master/preview.jpg)
+
+## To retrain the model
+- checkout the colab link about , to build the model from scratch
+
+## Pre-Trained model
+- quickdraw-acc93.h5
+- 93% Test acc on holdout test set
+
+## Tflite model for Android
+- quickdraw-acc93.tflite
+
+
+## Sample Image
+![img](./out.jpg)
+![img](./out1.jpg)
+![img](./out2.jpg)
