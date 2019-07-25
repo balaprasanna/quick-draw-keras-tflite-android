@@ -18,6 +18,6 @@
 
 
 ## Sample Image
-![img](./out.jpg)
+![img](./out.jpg){ width=50% }
 ![img](./out1.jpg)
 ![img](./out2.jpg)
