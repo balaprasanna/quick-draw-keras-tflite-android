@@ -18,6 +18,6 @@
 
 
 ## Sample Image
-![img](./out.jpg | width=100)
+![img](./out.jpg  =250x250)
 ![img](./out1.jpg)
 ![img](./out2.jpg)
