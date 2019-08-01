@@ -10,7 +10,8 @@
 - checkout the colab link about , to build the model from scratch
 
 ## Pre-Trained model
-- quickdraw-acc93.h5
+- quickdraw-acc93.h5 
+- quickdraw-acc93-v1.tflite
 - 93% Test acc on holdout test set
 
 ## Tflite model for Android
