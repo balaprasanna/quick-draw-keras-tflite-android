@@ -1,0 +1,166 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.nex3z:finger-paint-view:0.1.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/finger-paint-view-0.1.0.aar/8c8f6aeadf8c79b671bb34becae4e23c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f0c5f7ff5b54d472273dff389919a3fd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/6143a40e787d517a0c66a8bed29dc3bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/0a781da47363838f496d11ac3b0daef4/AndroidManifest.xml:2:1-7:12
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.13.1.aar/ecdf3075212d5b1a26c1ae1ebfe41034/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7beea018b5158ee26ff7ba71edc7561e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9e22d7b91b313a8094ef69b87ba640ed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b0c52ffde12d25c9819a679a60a0c10c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9a4621b26825be0748813f6079b6b78f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/fb51b5cf7f022c9eb1ef548ff8ce795b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/69ff2514a9a224b949cfe2d7d2d95128/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6c2bdaa969b87ca245f0b3a4789bcefb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2cd385c0532ff7f1dbbf81ecdea4e4b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/04ef0ae01cf93a8646dc49e0a75fcda6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b249a26d287a60edf7125d16f25fbb44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/41634ee9d4e88aef9fd039daa1455b16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6cc0084b9248a929ee4b11c32e025bbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/586c1df0aa8f30c03b654fc655e177df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f314eeee7e383904a61d246441111065/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/069f439f5b247dc5365a6eebb435e675/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0926283dba1a40b2993b8f364b387897/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7b54e13943aa7a72d3339032a2c78564/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5a63126267e40e4dcb4d0b4f0263498b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e816b51f9672c9d5db4cbedfd4a8973b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/1d43b1edb9321b628b7749ff7f71b450/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7a0b1ceb52966207a87b9e53402b1ac9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/33d4ee261d6757ae1e8c28c78b12c5bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/340be1dcb97df78da26bf974ab488c03/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/29457a2e4df2f14bed653ea0734f0d6b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/79737289440c40eb8f920cf8046ca798/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/af8c67fa55d54b26f21203c85b91eb2c/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.13.1.aar/ecdf3075212d5b1a26c1ae1ebfe41034/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.13.1.aar/ecdf3075212d5b1a26c1ae1ebfe41034/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/069f439f5b247dc5365a6eebb435e675/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/069f439f5b247dc5365a6eebb435e675/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0926283dba1a40b2993b8f364b387897/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0926283dba1a40b2993b8f364b387897/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/069f439f5b247dc5365a6eebb435e675/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.bala.quickdraw.MainActivity
+ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+MERGED from [com.nex3z:finger-paint-view:0.1.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/finger-paint-view-0.1.0.aar/8c8f6aeadf8c79b671bb34becae4e23c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.nex3z:finger-paint-view:0.1.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/finger-paint-view-0.1.0.aar/8c8f6aeadf8c79b671bb34becae4e23c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f0c5f7ff5b54d472273dff389919a3fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f0c5f7ff5b54d472273dff389919a3fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/6143a40e787d517a0c66a8bed29dc3bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/6143a40e787d517a0c66a8bed29dc3bc/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/0a781da47363838f496d11ac3b0daef4/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/0a781da47363838f496d11ac3b0daef4/AndroidManifest.xml:5:5-43
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.13.1.aar/ecdf3075212d5b1a26c1ae1ebfe41034/AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.13.1.aar/ecdf3075212d5b1a26c1ae1ebfe41034/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7beea018b5158ee26ff7ba71edc7561e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7beea018b5158ee26ff7ba71edc7561e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9e22d7b91b313a8094ef69b87ba640ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9e22d7b91b313a8094ef69b87ba640ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b0c52ffde12d25c9819a679a60a0c10c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b0c52ffde12d25c9819a679a60a0c10c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9a4621b26825be0748813f6079b6b78f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/9a4621b26825be0748813f6079b6b78f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/fb51b5cf7f022c9eb1ef548ff8ce795b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/fb51b5cf7f022c9eb1ef548ff8ce795b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/69ff2514a9a224b949cfe2d7d2d95128/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/69ff2514a9a224b949cfe2d7d2d95128/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6c2bdaa969b87ca245f0b3a4789bcefb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6c2bdaa969b87ca245f0b3a4789bcefb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2cd385c0532ff7f1dbbf81ecdea4e4b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2cd385c0532ff7f1dbbf81ecdea4e4b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/04ef0ae01cf93a8646dc49e0a75fcda6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/04ef0ae01cf93a8646dc49e0a75fcda6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b249a26d287a60edf7125d16f25fbb44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b249a26d287a60edf7125d16f25fbb44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/41634ee9d4e88aef9fd039daa1455b16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/41634ee9d4e88aef9fd039daa1455b16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6cc0084b9248a929ee4b11c32e025bbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6cc0084b9248a929ee4b11c32e025bbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/586c1df0aa8f30c03b654fc655e177df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/586c1df0aa8f30c03b654fc655e177df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f314eeee7e383904a61d246441111065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f314eeee7e383904a61d246441111065/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/069f439f5b247dc5365a6eebb435e675/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/069f439f5b247dc5365a6eebb435e675/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0926283dba1a40b2993b8f364b387897/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0926283dba1a40b2993b8f364b387897/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7b54e13943aa7a72d3339032a2c78564/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7b54e13943aa7a72d3339032a2c78564/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5a63126267e40e4dcb4d0b4f0263498b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5a63126267e40e4dcb4d0b4f0263498b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e816b51f9672c9d5db4cbedfd4a8973b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e816b51f9672c9d5db4cbedfd4a8973b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/1d43b1edb9321b628b7749ff7f71b450/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/1d43b1edb9321b628b7749ff7f71b450/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7a0b1ceb52966207a87b9e53402b1ac9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/7a0b1ceb52966207a87b9e53402b1ac9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/33d4ee261d6757ae1e8c28c78b12c5bd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/33d4ee261d6757ae1e8c28c78b12c5bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/340be1dcb97df78da26bf974ab488c03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/std-user01/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/340be1dcb97df78da26bf974ab488c03/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/29457a2e4df2f14bed653ea0734f0d6b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/29457a2e4df2f14bed653ea0734f0d6b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/79737289440c40eb8f920cf8046ca798/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/79737289440c40eb8f920cf8046ca798/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/af8c67fa55d54b26f21203c85b91eb2c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/std-user01/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/af8c67fa55d54b26f21203c85b91eb2c/AndroidManifest.xml:20:5-44
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/std-user01/AndroidStudioProjects/quick-draw-keras-tflite-android/android/app/src/main/AndroidManifest.xml
