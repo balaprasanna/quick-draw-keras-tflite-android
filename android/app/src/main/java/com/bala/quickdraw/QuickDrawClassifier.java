@@ -22,7 +22,7 @@ import java.util.Arrays;
 public class QuickDrawClassifier {
     private static final String LOG_TAG = QuickDrawClassifier.class.getSimpleName();
 
-    private static final String MODEL_NAME =  "quickdraw-acc93.tflite";
+    private static final String MODEL_NAME =  "quickdraw-acc93-v1.tflite";
 
     private static final int BATCH_SIZE = 1;
 
