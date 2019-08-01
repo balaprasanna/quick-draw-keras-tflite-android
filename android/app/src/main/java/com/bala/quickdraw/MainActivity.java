@@ -1,4 +1,4 @@
-package com.bala.mathsymbol;
+package com.bala.quickdraw;
 
 import android.graphics.Bitmap;
 import android.graphics.Paint;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.nex3z.fingerpaintview.FingerPaintView;
-import com.bala.mathsymbol.R;
+import com.bala.quickdraw.R;
 
 import java.io.IOException;
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         init();
         Paint p = mFpvPaint.getPen();
-        p.setStrokeWidth(15);
+        p.setStrokeWidth(18);
         mFpvPaint.setPen(p);
     }
 

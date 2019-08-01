@@ -5,7 +5,10 @@
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
-/build
+/build/generated
+/build/intermediates
+/build/tmp
+/build/outputs/logs
 /captures
 .externalNativeBuild
 /app/release

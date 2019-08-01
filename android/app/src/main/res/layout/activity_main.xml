@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.bala.mathsymbol.MainActivity">
+    tools:context="com.bala.quickdraw.MainActivity">
 
     <TableLayout
         android:layout_width="match_parent"

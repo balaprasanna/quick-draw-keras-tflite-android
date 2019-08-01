@@ -1,4 +1,4 @@
-package com.bala.mathsymbol;
+package com.bala.quickdraw;
 
 import android.app.Activity;
 import android.content.res.AssetFileDescriptor;

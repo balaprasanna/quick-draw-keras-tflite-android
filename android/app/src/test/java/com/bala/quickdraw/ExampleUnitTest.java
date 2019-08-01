@@ -1,4 +1,4 @@
-package com.bala.mathsymbol;
+package com.bala.quickdraw;
 
 import org.junit.Test;
 

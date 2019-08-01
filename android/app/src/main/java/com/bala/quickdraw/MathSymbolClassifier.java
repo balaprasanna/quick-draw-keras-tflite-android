@@ -1,4 +1,4 @@
-package com.bala.mathsymbol;
+package com.bala.quickdraw;
 
 import android.app.Activity;
 import android.content.res.AssetFileDescriptor;
@@ -19,19 +19,18 @@ import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.util.Arrays;
 
-public class Classifier {
-    private static final String LOG_TAG = Classifier.class.getSimpleName();
+public class MathSymbolClassifier {
+    private static final String LOG_TAG = MathSymbolClassifier.class.getSimpleName();
 
-    // For HASYv2
-    private static final String MODEL_NAME = "HASYv2-1chan-acc84.tflite"; // "HASYv2-1chan.tflite";
+    private static final String MODEL_NAME =  "mathsymbol-one-chan-best.tflite"; //"mathsymbol-one-chan-v1.tflite"; //"mathsymbol-best.tflite";
 
     private static final int BATCH_SIZE = 1;
 
-//     For HASYv2
-    public static final int IMG_HEIGHT = 32;// 28;
-    public static final int IMG_WIDTH = 32; //28
-    private static final int NUM_CHANNEL = 1; //1;
-    private static final int NUM_CLASSES =  369; //82; //10;
+    // For mathsymbol
+    public static final int IMG_HEIGHT = 45;
+    public static final int IMG_WIDTH = 45;
+    private static final int NUM_CHANNEL = 1;
+    private static final int NUM_CLASSES =  82;
 
 
     private final Interpreter.Options options = new Interpreter.Options();
@@ -40,22 +39,18 @@ public class Classifier {
     private final int[] mImagePixels = new int[IMG_HEIGHT * IMG_WIDTH];
     private final float[][] mResult = new float[1][NUM_CLASSES];
 
-    // For HASYv2
-    public  JSONObject labelsJsonFile = null;
-    public  JSONObject symbolsJsonFile = null;
+    // For mathsymbol
+    public  JSONObject mathsymbolJsonFile = null;
 
-    public Classifier(Activity activity) throws IOException {
+    public MathSymbolClassifier(Activity activity) throws IOException {
         mInterpreter = new Interpreter(loadModelFile(activity), options);
         mImageData = ByteBuffer.allocateDirect(
                 4 * BATCH_SIZE * IMG_HEIGHT * IMG_WIDTH * NUM_CHANNEL);
         mImageData.order(ByteOrder.nativeOrder());
 
         try {
-
-            JSONObject lablesobj = new JSONObject( loadJSONFromAsset(activity, "HASYv2-lables-i2c.json"));
-            labelsJsonFile = lablesobj;
-            JSONObject symbobj = new JSONObject( loadJSONFromAsset(activity, "HASYv2_symbol.json"));
-            symbolsJsonFile = symbobj;
+            JSONObject mathsymbobj = new JSONObject( loadJSONFromAsset(activity, "mathsymbol-lables-i2c.json"));
+            mathsymbolJsonFile = mathsymbobj;
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -90,21 +85,15 @@ public class Classifier {
 
         Result res = new Result(mResult[0], timeCost);
         try{
-            //For HASYv2
-            Log.v(LOG_TAG, "labelsJsonFile -> "+ labelsJsonFile.getString("0"));
-            Log.v(LOG_TAG, "labelsJsonFile "+ labelsJsonFile.getString( String.valueOf( res.getNumber()) )  );
-            Log.v(LOG_TAG, "Symbol -> " + symbolsJsonFile.getJSONObject("latex").getString( String.valueOf( res.getNumber()) ) );
-
-            // SET LABLES
-            String lab = labelsJsonFile.getString(String.valueOf( res.getNumber()) )
-                    + " - "
-                    + symbolsJsonFile.getJSONObject("latex").getString( String.valueOf( res.getNumber()) ) ;
-            //res.setLabel( labelsJsonFile.getString(String.valueOf( res.getNumber()) ) );
+            // For mathsymbol
+            String lab = mathsymbolJsonFile.getString(String.valueOf( res.getNumber()) );
             res.setLabel(  lab );
 
         } catch (Exception e){
             e.printStackTrace();
         }
+
+
 
         return res;
     }

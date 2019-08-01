@@ -21,3 +21,7 @@
 ![img](./out.jpg)
 ![img](./out1.jpg)
 ![img](./out2.jpg)
+
+
+## Download the APk file & Try in your phone
+[Apk File](https://raw.githubusercontent.com/balaprasanna/quick-draw-keras-tflite-android/master/android/app/build/outputs/apk/debug/app-debug.apk)
